@@ -341,7 +341,7 @@ Thank you
 
 ### Conclusion.
 
-I also dont have permission for now, thus dont enable null-safety
+I also dont have permission for now, thus cannot build windows apk.
 
 Revert:
 environment:
