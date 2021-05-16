@@ -314,6 +314,9 @@ Building with plugins requires symlink support.
 Please enable Developer Mode in your system settings. Run
   start ms-settings:developers
 to open settings.
+```
+
+Issue discussion link: 
 
 https://github.com/flutter/flutter/issues/72462
 
