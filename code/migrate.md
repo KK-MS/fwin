@@ -1,6 +1,81 @@
 
+# Windows build
 
-# Main.
+Note:
+Any plugins import needs symlinksupport.
+Deleting .flutter-plugins...                                         1ms
+
+C:\prj\flutterapp\win\fwin\code\fwinapp>flutter pub get      
+Running "flutter pub get" in fwinapp...                            846ms
+Building with plugins requires symlink support.
+
+Please enable Developer Mode in your system settings. Run
+  start ms-settings:developers
+to open settings.
+
+C:\prj\flutterapp\win\fwin\code\fwinapp> 
+
+
+Non null safe..!! changes.
+
+Logs:
+```
+C:\prj\flutterapp\win\fwin\code\fwinapp>
+C:\prj\flutterapp\win\fwin\code\fwinapp> dart --no-sound-null-safety run
+Could not find `bin\fwinapp.dart` in package `fwinapp`.
+
+C:\prj\flutterapp\win\fwin\code\fwinapp> flutter run --no-sound-null-safety
+Multiple devices found:
+Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.19042.985]
+Chrome (web)      • chrome  • web-javascript • Google Chrome 90.0.4430.212
+Edge (web)        • edge    • web-javascript • Microsoft Edge 90.0.818.62
+[1]: Windows (windows)
+[2]: Chrome (chrome)
+[3]: Edge (edge)
+Please choose one (To quit, press "q/Q"): 1
+Launching lib\main.dart on Windows in debug mode...
+Exception: Building with plugins requires symlink support.
+
+Please enable Developer Mode in your system settings. Run
+  start ms-settings:developers
+to open settings.
+
+C:\prj\flutterapp\win\fwin\code\fwinapp> flutter run --no-sound-null-safety
+
+C:\prj\flutterapp\win\fwin\code\fwinapp>flutter build windows
+
+Building without sound null safety
+For more information see https://dart.dev/null-safety/unsound-null-safety
+
+Building with plugins requires symlink support.
+
+Please enable Developer Mode in your system settings. Run
+  start ms-settings:developers
+to open settings.
+
+C:\prj\flutterapp\win\fwin\code\fwinapp>flutter clean
+Deleting build...                                                   80ms
+Deleting .dart_tool...                                              11ms
+Deleting .packages...                                                3ms
+Deleting Generated.xcconfig...                                       1ms
+Deleting flutter_export_environment.sh...                            1ms
+Deleting ephemeral...                                               20ms
+Deleting .flutter-plugins-dependencies...                            0ms
+Deleting .flutter-plugins...                                         1ms
+
+C:\prj\flutterapp\win\fwin\code\fwinapp>flutter pub get
+Running "flutter pub get" in fwinapp...                            846ms
+Building with plugins requires symlink support.
+
+Please enable Developer Mode in your system settings. Run
+  start ms-settings:developers
+to open settings.
+
+C:\prj\flutterapp\win\fwin\code\fwinapp>
+
+```
+
+## Main.
 
 main.dart:
 

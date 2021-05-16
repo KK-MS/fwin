@@ -5,14 +5,14 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
 
-void main() {
-  runApp(
-    MaterialApp(
-      title: 'Reading and Writing Files',
-      home: FlutterDemo(storage: CounterStorage()),
-    ),
-  );
-}
+//void main() {
+//  runApp(
+//    MaterialApp(
+//      title: 'Reading and Writing Files',
+//      home: FlutterDemo(storage: CounterStorage()),
+//    ),
+//  );
+//}
 
 class CounterStorage {
   Future<String> get _localPath async {
@@ -51,7 +51,7 @@ class CounterStorage {
 class FlutterDemo extends StatefulWidget {
   final CounterStorage storage;
 
-  FlutterDemo({Key? key, required this.storage}) : super(key: key);
+  FlutterDemo({Key key, @required this.storage}) : super(key: key);
 
   @override
   _FlutterDemoState createState() => _FlutterDemoState();

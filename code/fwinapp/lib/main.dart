@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+// File read write
+import 'package:fwinapp/frw.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -9,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      //title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -22,7 +25,9 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      //home: MyHomePage(title: 'Flutter Demo Home Page'),
+      title: 'Reading and Writing Files',
+      home: FlutterDemo(storage: CounterStorage()),
     );
   }
 }
