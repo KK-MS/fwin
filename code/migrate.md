@@ -108,7 +108,7 @@ sdk: '>=2.12.0 <3.0.0'
 ```
 
 ## Command logs:
-
+```
 Microsoft Windows [Version 10.0.19042.985]
 (c) Microsoft Corporation. All rights reserved.
 
@@ -300,20 +300,11 @@ remote.origin.url=https://github.com/KK-MS/fwin.git
 remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 branch.main.remote=origin
 branch.main.merge=refs/heads/main
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
+```
 
+Build for windows
+
+```
 C:\prj\flutterapp\win\fwin\code\fwinapp>flutter build windows        
 
  Building with sound null safety 
